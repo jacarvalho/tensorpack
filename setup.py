@@ -59,7 +59,7 @@ setup(
         "tqdm>4.29.0",
         "msgpack>=0.5.2",
         "msgpack-numpy>=0.4.4.2",
-        "pyzmq>=16",
+        "pyzmq==16",
         "psutil>=5",
     ],
     tests_require=['flake8', 'scikit-image'],
